@@ -17,10 +17,6 @@ asdf install nodejs 20.18.0
 asdf global nodejs 20.18.0
 npm install -g yarn
 gem install rails -v 8.0.0.beta1
-corepack enable
-y | yarn set version stable
-./bin/bundle add jsbundling-rails
-rails javascript:install:esbuild #eh
 rails -v
 ruby -v
 node -v
